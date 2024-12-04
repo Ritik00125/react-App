@@ -1,0 +1,48 @@
+.ritik{
+   border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+}
+.ritik:hover{
+ background-color: green;
+color: rgb(250, 252, 255);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+  gap: 20px;
+ background-color: green;
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.login input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.login button{
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    max-width: 100px;
+    margin: auto;
+    color: white;
+    background-color: chocolate;
+}
+.login button:hover{
+    background-color: red;
+    color: wheat;
+    cursor: pointer;
+}
